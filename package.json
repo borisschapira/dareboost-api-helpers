@@ -2,7 +2,7 @@
   "scripts": {
 		"preoutput-tracking-conf": "echo 'Cleaning old json and csv files…' && rimraf output.json && rimraf output.csv",
 		"output-tracking-conf": "node output-tracking-conf.js",
-		"postoutput-tracking-conf": "echo 'Convert file to output.csv' && json2csv -i output.json -o output.csv",
+		"postoutput-tracking-conf": "echo 'Convert file to output.csv' && json2csv -i output.json -o output.csv -d '\t'",
     "lint": "xo",
     "test": "xo"
   },
