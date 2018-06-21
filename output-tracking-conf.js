@@ -4,18 +4,18 @@ const getMonitoringLastExecutions = require('./api/client/trackings/last-executi
 
 const filepath = 'output.json';
 
-getMonitoringLastExecutions()
-	.then(data => {
-		const normalizedData = _.map(data, item => flattenData(item));
-		const jsonContent = JSON.stringify(normalizedData);
-		fs.writeFile(filepath, jsonContent, 'utf8', err => {
-			if (err) {
-				console.log('An error occured while writing JSON Object to File.', err);
-			}
+(async () => {
+	const data = await getMonitoringLastExecutions();
+	const normalizedData = _.map(data, item => flattenData(item));
+	const jsonContent = JSON.stringify(normalizedData);
+	fs.writeFile(filepath, jsonContent, 'utf8', err => {
+		if (err) {
+			console.log('An error occured while writing JSON Object to File.', err);
+		}
 
-			console.log('JSON file ' + filepath + ' has been saved.');
-		});
+		console.log('JSON file ' + filepath + ' has been saved.');
 	});
+})();
 
 function flattenData(trackingData) {
 	if (trackingData.browser && trackingData.browser.name) {
