@@ -19,7 +19,7 @@ async function getMonitoringLastExecutions() {
 	});
 	const activeMonitoringIds = _.pluck(activeMonitoringsData, 'id');
 
-	const monitoringLastExecutions = await forEachTimeout(_.map(activeMonitoringIds, id => getMonitoringLastExecution(id)), e => Promise.resolve(e), 5000);
+	const monitoringLastExecutions = await forEachTimeout(_.map(activeMonitoringIds, id => getMonitoringLastExecution(id)), e => Promise.resolve(e), config.delay);
 
 	return _.map(monitoringLastExecutions, (monitoringLastExecution, index) => {
 		return _.extend(activeMonitoringsData[index], {

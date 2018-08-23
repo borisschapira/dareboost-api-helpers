@@ -2,6 +2,9 @@ const host = 'www.dareboost.com';
 const apiVersion = '0.5.1';
 const token = process.env.DB_API_TOKEN;
 
+// Delay between two API calls on iterative calls
+const delay = 500;
+
 exports.config = {
 	apiUrl: 'https://' + host + '/api/' + apiVersion,
 	endpoints: {
@@ -10,5 +13,6 @@ exports.config = {
 			lastReport: '/monitoring/last-report'
 		}
 	},
+	delay,
 	token
 };
