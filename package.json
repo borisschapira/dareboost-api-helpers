@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "output-active-tracking-conf": "node lib/helpers/output-active-tracking-conf.js",
+    "active-tracking-conf": "node lib/helpers/active-tracking-conf.js",
     "lint": "xo"
   },
   "name": "collect-trackings",
