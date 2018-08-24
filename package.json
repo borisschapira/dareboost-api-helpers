@@ -1,7 +1,7 @@
 {
   "scripts": {
-		"active-tracking-conf": "node lib/helpers/active-tracking-conf.js",
-		"common-tips-on-active-tracking": "node lib/helpers/common-tips-on-active-tracking.js",
+    "active-tracking-conf": "node lib/helpers/active-tracking-conf.js",
+    "common-tips-on-active-tracking": "node lib/helpers/common-tips-on-active-tracking.js",
     "lint": "xo"
   },
   "name": "collect-trackings",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "foreach-timeout": "^2.0.2",
+    "html-entities": "^1.2.1",
     "json2csv": "^4.1.3",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
