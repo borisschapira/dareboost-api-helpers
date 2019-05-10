@@ -33,7 +33,7 @@ yarn install
 From now on, there is only one helper that exports a user's active tracking configuration to JSON and CSV. Don't forget to set [your Dareboost API token](https://www.dareboost.com/en/profile/api) (you need to be a customer, see [Dareboost's offers](https://www.dareboost.com/en/offers#gppufs)) right before calling the helper.
 
 ```
-DB_API_TOKEN='your_api_token' yarn output-tracking-conf
+DB_API_TOKEN='your_api_token' yarn run page:monitor
 ```
 
 
