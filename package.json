@@ -1,9 +1,9 @@
 {
   "scripts": {
     "page:monitor": "node lib/helpers/page/monitors.js",
-		"page:common-tips": "node lib/helpers/page/common-tips.js",
-		"scenario:status": "node lib/helpers/scenario/status.js",
-		"lint": "xo"
+    "page:common-tips": "node lib/helpers/page/common-tips.js",
+    "scenario:status": "node lib/helpers/scenario/status.js",
+    "lint": "xo"
   },
   "name": "collect-trackings",
   "version": "1.0.0",
