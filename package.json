@@ -1,7 +1,7 @@
 {
   "scripts": {
-		"page:monitor": "node lib/helpers/page/monitors.js",
-		"page:monitor:average": "node lib/helpers/page/average-values.js",
+    "page:monitor": "node lib/helpers/page/monitors.js",
+    "page:monitor:average": "node lib/helpers/page/average-values.js",
     "page:common-tips": "node lib/helpers/page/common-tips.js",
     "scenario:status": "node lib/helpers/scenario/status.js",
     "lint": "xo"
