@@ -11,7 +11,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "xo": "^0.21.1"
+    "xo": "^0.24.0"
   },
   "dependencies": {
     "foreach-timeout": "^2.0.2",
