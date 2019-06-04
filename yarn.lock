@@ -1116,10 +1116,10 @@ for-in@^1.0.2:
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
 
-foreach-timeout@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/foreach-timeout/-/foreach-timeout-2.0.2.tgz#c743cbc7120ed2a7ebe2a34d27459b8d1b558db2"
-  integrity sha1-x0PLxxIO0qfr4qNNJ0WbjRtVjbI=
+foreach-timeout@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/foreach-timeout/-/foreach-timeout-3.0.1.tgz#cfba6397c646137e58dfbb83c0a5b971e21e1df1"
+  integrity sha512-IIadQ3kBvORWU/mHxohQeHCGFL57ZpDlvruPmKbU9Isv3IfoxSk8N3R0ZuYdjL0OAoQU20TvIRnjni+ygomLkA==
 
 forever-agent@~0.6.1:
   version "0.6.1"
