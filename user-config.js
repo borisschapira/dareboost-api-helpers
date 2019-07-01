@@ -1,5 +1,5 @@
 // Export folder
-const exportFolder = 'output';
+const exportFolder = "output";
 
 // Insert timestamp or
 // 5 first caracters of the API key
@@ -11,10 +11,7 @@ const filename = {
 
 // CSV, JSON or both (in an array).
 // If empty, will export to the console
-const exportTypes = [
-	'CSV',
-	'JSON'
-];
+const exportTypes = ["CSV", "JSON"];
 
 exports.config = {
 	exportFolder,
