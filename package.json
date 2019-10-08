@@ -13,7 +13,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "xo": "^0.24.0"
+    "xo": "^0.25.3"
   },
   "dependencies": {
     "camelcase": "^5.3.1",
