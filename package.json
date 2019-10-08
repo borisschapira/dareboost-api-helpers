@@ -5,8 +5,8 @@
     "page:common-tips": "node lib/helpers/page/common-tips.js",
     "scenario:status": "node lib/helpers/scenario/status.js",
     "lint": "xo",
-		"clean": "rimraf ./output/*",
-		"test": "mocha --recursive ./tests"
+    "clean": "rimraf ./output/*",
+    "test": "mocha --recursive ./tests"
   },
   "name": "collect-trackings",
   "version": "1.0.0",
@@ -17,14 +17,14 @@
   },
   "dependencies": {
     "camelcase": "^5.3.1",
+    "chai": "^4.2.0",
     "foreach-timeout": "^3.0.1",
     "html-entities": "^1.2.1",
-    "json2csv": "^4.5.2",
+    "json2csv": "^4.5.3",
+    "mocha": "^6.2.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
-    "rimraf": "^2.7.0",
-    "underscore": "^1.9.1",
-    "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "rimraf": "^2.7.1",
+    "underscore": "^1.9.1"
   }
 }
