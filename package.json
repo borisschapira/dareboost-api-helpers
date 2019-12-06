@@ -21,9 +21,9 @@
     "foreach-timeout": "^3.0.1",
     "html-entities": "^1.2.1",
     "json2csv": "^4.5.4",
-    "mocha": "^6.2.1",
+    "mocha": "^6.2.2",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2",
+    "request-promise": "^4.2.5",
     "rimraf": "^3.0.0",
     "underscore": "^1.9.1"
   }
