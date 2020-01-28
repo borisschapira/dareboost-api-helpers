@@ -24,7 +24,7 @@
     "mocha": "^6.2.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
-    "rimraf": "^3.0.0",
+    "rimraf": "^3.0.1",
     "underscore": "^1.9.2"
   }
 }
