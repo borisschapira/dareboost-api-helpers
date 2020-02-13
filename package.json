@@ -13,7 +13,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "xo": "^0.25.3"
+    "xo": "^0.26.1"
   },
   "dependencies": {
     "camelcase": "^5.3.1",
@@ -21,8 +21,8 @@
     "foreach-timeout": "^3.0.1",
     "html-entities": "^1.2.1",
     "json2csv": "^4.5.4",
-    "mocha": "^7.0.1",
-    "request": "^2.88.0",
+    "mocha": "^7.1.0",
+    "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "rimraf": "^3.0.2",
     "underscore": "^1.9.2"
