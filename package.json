@@ -25,6 +25,6 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "rimraf": "^3.0.2",
-    "underscore": "^1.9.2"
+    "underscore": "^1.10.2"
   }
 }
