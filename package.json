@@ -20,7 +20,7 @@
     "chai": "^4.2.0",
     "foreach-timeout": "^3.0.1",
     "html-entities": "^1.3.1",
-    "json2csv": "^5.0.0",
+    "json2csv": "^5.0.1",
     "mocha": "^7.1.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
