@@ -29,10 +29,24 @@ npm install
 
 ### Using the helpers
 
-From now on, there is only one helper that exports a user's active tracking configuration to JSON and CSV. Don't forget to set [your Dareboost API token](https://www.dareboost.com/en/profile/api) (you need to be a customer, see [Dareboost's offers](https://www.dareboost.com/en/offers#gppufs)) right before calling the helper.
+Don't forget to set [your Dareboost API token](https://www.dareboost.com/en/profile/api) (you need to be a customer, see [Dareboost's offers](https://www.dareboost.com/en/offers#gppufs)) right before calling the helper.
+
+To export a user's active tracking configuration:
 
 ```
 DB_API_TOKEN='your_api_token' npm run page:monitor
+```
+
+To export a user's active tracking statistics (the mean or percentiles of the active monitors):
+
+```
+DB_API_TOKEN='your_api_token' npm run page:statistics
+```
+
+To export the tips that came up most often:
+
+```
+DB_API_TOKEN='your_api_token' npm run page:common-tips
 ```
 
 
