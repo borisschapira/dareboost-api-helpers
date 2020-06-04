@@ -1,32 +1,34 @@
 {
-  "scripts": {
-    "page:monitor": "node lib/helpers/page/monitors.js",
-    "page:statistics": "node lib/helpers/page/statistics.js",
-    "page:monitor:average": "node lib/helpers/page/average-values.js",
-    "page:common-tips": "node lib/helpers/page/common-tips.js",
-    "scenario:status": "node lib/helpers/scenario/status.js",
-    "lint": "xo",
-    "clean": "rimraf ./output/*",
-    "test": "mocha --recursive ./tests"
-  },
-  "name": "collect-trackings",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "xo": "^0.29.0"
-  },
-  "dependencies": {
-    "camelcase": "^5.3.1",
-    "chai": "^4.2.0",
-    "fast-stats": "0.0.5",
-    "foreach-timeout": "^3.0.1",
-    "html-entities": "^1.3.1",
-    "json2csv": "^5.0.1",
-    "mocha": "^7.2.0",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.5",
-    "rimraf": "^3.0.2",
-    "underscore": "^1.10.2"
-  }
+	"scripts": {
+		"page:monitor": "node lib/helpers/page/monitors.js",
+		"page:statistics": "node lib/helpers/page/statistics.js",
+		"page:monitor:average": "node lib/helpers/page/average-values.js",
+		"page:common-tips": "node lib/helpers/page/common-tips.js",
+		"scenario:status": "node lib/helpers/scenario/status.js",
+		"lint": "npx prettier lib --write; npx eslint lib;",
+		"clean": "rimraf ./output/*",
+		"test": "mocha --recursive ./tests"
+	},
+	"name": "collect-trackings",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.11.0",
+		"prettier": "^2.0.5"
+	},
+	"dependencies": {
+		"camelcase": "^5.3.1",
+		"chai": "^4.2.0",
+		"fast-stats": "0.0.5",
+		"foreach-timeout": "^3.0.1",
+		"html-entities": "^1.3.1",
+		"json2csv": "^5.0.1",
+		"mocha": "^7.2.0",
+		"request": "^2.88.2",
+		"request-promise": "^4.2.5",
+		"rimraf": "^3.0.2",
+		"underscore": "^1.10.2"
+	}
 }
