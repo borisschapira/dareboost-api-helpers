@@ -3,6 +3,7 @@
 		"page:monitor": "node lib/helpers/page/monitors.js",
 		"page:statistics": "node lib/helpers/page/statistics.js",
 		"page:monitor:average": "node lib/helpers/page/average-values.js",
+		"page:monitor:scores": "node lib/helpers/page/average-scores.js",
 		"page:common-tips": "node lib/helpers/page/common-tips.js",
 		"scenario:status": "node lib/helpers/scenario/status.js",
 		"lint": "npx prettier lib --write; npx eslint lib;",
@@ -14,9 +15,9 @@
 	"main": "index.js",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "^7.7.0",
+		"eslint": "^7.9.0",
 		"eslint-config-prettier": "^6.11.0",
-		"prettier": "^2.1.1"
+		"prettier": "^2.1.2"
 	},
 	"dependencies": {
 		"camelcase": "^6.0.0",
@@ -25,10 +26,10 @@
 		"foreach-timeout": "^3.0.1",
 		"html-entities": "^1.3.1",
 		"json2csv": "^5.0.1",
-		"mocha": "^8.1.2",
+		"mocha": "^8.1.3",
 		"request": "^2.88.2",
 		"request-promise": "^4.2.6",
 		"rimraf": "^3.0.2",
-		"underscore": "^1.10.2"
+		"underscore": "^1.11.0"
 	}
 }
