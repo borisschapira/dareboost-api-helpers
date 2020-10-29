@@ -15,18 +15,18 @@
 	"main": "index.js",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "^7.12.1",
+		"eslint": "^7.13.0",
 		"eslint-config-prettier": "^6.15.0",
 		"prettier": "^2.1.2"
 	},
 	"dependencies": {
-		"camelcase": "^6.1.0",
+		"camelcase": "^6.2.0",
 		"chai": "^4.2.0",
 		"fast-stats": "0.0.5",
 		"foreach-timeout": "^3.0.1",
 		"html-entities": "^1.3.1",
 		"json2csv": "^5.0.3",
-		"mocha": "^8.2.0",
+		"mocha": "^8.2.1",
 		"request": "^2.88.2",
 		"request-promise": "^4.2.6",
 		"rimraf": "^3.0.2",
