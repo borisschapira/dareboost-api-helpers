@@ -27,6 +27,7 @@
 		"html-entities": "^2.0.2",
 		"json2csv": "^5.0.5",
 		"mocha": "^8.2.1",
+		"percentile": "^1.4.0",
 		"request": "^2.88.2",
 		"request-promise": "^4.2.6",
 		"rimraf": "^3.0.2",
