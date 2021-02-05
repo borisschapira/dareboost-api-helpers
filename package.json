@@ -21,7 +21,7 @@
 	},
 	"dependencies": {
 		"camelcase": "^6.2.0",
-		"chai": "^4.2.0",
+		"chai": "^4.3.0",
 		"fast-stats": "0.0.6",
 		"foreach-timeout": "^3.0.1",
 		"html-entities": "^2.1.0",
