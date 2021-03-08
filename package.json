@@ -26,7 +26,7 @@
 		"foreach-timeout": "^3.0.1",
 		"html-entities": "^2.1.0",
 		"json2csv": "^5.0.6",
-		"mocha": "^8.3.0",
+		"mocha": "^8.3.1",
 		"percentile": "^1.4.0",
 		"request": "^2.88.2",
 		"request-promise": "^4.2.6",
