@@ -14,7 +14,7 @@
 	"main": "index.js",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "^7.29.0",
+		"eslint": "^7.31.0",
 		"eslint-config-prettier": "^8.3.0",
 		"prettier": "^2.3.2"
 	},
@@ -24,7 +24,7 @@
 		"fast-stats": "0.0.6",
 		"html-entities": "^2.3.2",
 		"json2csv": "^5.0.6",
-		"mocha": "^9.0.1",
+		"mocha": "^9.0.2",
 		"percentile": "^1.4.0",
 		"request": "^2.88.2",
 		"request-promise": "^4.2.6",
