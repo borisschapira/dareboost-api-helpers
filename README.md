@@ -1,6 +1,6 @@
-# Boris' Dareboost API Helpers
+# Boris' Dareboost / Speed Analysis API Helpers
 
-A set of helpers I use to manipulate Dareboost API, using node.
+A set of helpers I use to manipulate Dareboost / Speed Analysis API, using node.
 
 ## Getting Started
 
@@ -27,36 +27,62 @@ Then enter the folder and install the project using yarn:
 npm install
 ```
 
-### Using the helpers
+### API Token
 
-Don't forget to set [your Dareboost API token](https://www.dareboost.com/en/profile/api) (you need to be a customer, see [Dareboost's offers](https://www.dareboost.com/en/offers#gppufs)) right before calling the helper.
+You will need a [Dareboost](https://www.dareboost.com/en/profile/api) or [Speed Analysis](https://app.contentsquare.com/#/speed-analysis/profile/api) API token (you need to be a customer) right before calling the helpers.
+
+## Usage
+
+### Export Active Monitors
 
 To export a user's active tracking configuration:
 
 ```
-DB_API_TOKEN='your_api_token' npm run page:monitor
+API_TOKEN='your_api_token' npm run page:monitor
 ```
 
-To export a user's active tracking statistics (the mean or percentiles of the active monitors):
+### Export the page statistics
+
+
+To export a user's active tracking general statistics (the mean or percentiles of the active monitors for Weights, TTFB, Start Render & Speed Index):
 
 ```
-DB_API_TOKEN='your_api_token' npm run page:statistics
+API_TOKEN='your_api_token' npm run page:statistics
 ```
+
+### Export the pages values
+
+
+To export a more detailed report of your active tracking metrics, you can use:
+
+```
+API_TOKEN='your_api_token' npm run page:monitor:average
+```
+
+If you want the value of percentiles instead of the average (mathematical mean), you can use the PERCENTILE parameter. To get median values (50th percentile), use:
+
+```
+PERCENTILE=50 API_TOKEN='your_api_token' npm run page:monitor:average
+```
+
+
+### Export the most common advice
 
 To export the tips that came up most often:
 
 ```
-DB_API_TOKEN='your_api_token' npm run page:common-tips
+API_TOKEN='your_api_token' npm run page:common-tips
 ```
 
 **Additionnal parameters**
 
-You can use DB_FILENAME to define a prefix for the exported files and CSV_SEPARATOR to change the default CSV separator (tab) by something else (a comma, for example):
+You can use PREFIX to define a prefix for the exported files and CSV_SEPARATOR to change the default CSV separator (tab) by something else (a comma, for example):
 
 ```
-DB_FILENAME='Export' CSV_SEPARATOR="," DB_API_TOKEN='your_api_token' npm run page:monitors
+PREFIX='Export' CSV_SEPARATOR="," API_TOKEN='your_api_token' npm run page:monitors
 ```
 
+For
 
 ## Running the tests
 
