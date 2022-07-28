@@ -49,6 +49,14 @@ To export the tips that came up most often:
 DB_API_TOKEN='your_api_token' npm run page:common-tips
 ```
 
+**Additionnal parameters**
+
+You can use DB_FILENAME to define a prefix for the exported files and CSV_SEPARATOR to change the default CSV separator (tab) by something else (a comma, for example):
+
+```
+DB_FILENAME='Export' CSV_SEPARATOR="," DB_API_TOKEN='your_api_token' npm run page:monitors
+```
+
 
 ## Running the tests
 
