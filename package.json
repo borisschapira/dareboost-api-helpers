@@ -14,21 +14,21 @@
 	"main": "index.js",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "^8.14.0",
-		"eslint-config-prettier": "^8.5.0",
-		"prettier": "^2.6.2"
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^8.10.0",
+		"prettier": "^2.8.8"
 	},
 	"dependencies": {
-		"camelcase": "^6.2.0",
-		"chai": "^4.3.4",
+		"camelcase": "^6.3.0",
+		"chai": "^4.4.1",
 		"fast-stats": "0.0.6",
-		"html-entities": "^2.3.3",
-		"json2csv": "^5.0.6",
-		"mocha": "^10.0.0",
-		"percentile": "^1.5.0",
+		"html-entities": "^2.5.2",
+		"json2csv": "^5.0.7",
+		"mocha": "^10.4.0",
+		"percentile": "^1.6.0",
 		"request": "^2.88.2",
 		"request-promise": "^4.2.6",
 		"rimraf": "^3.0.2",
-		"underscore": "^1.13.3"
+		"underscore": "^1.13.6"
 	}
 }
