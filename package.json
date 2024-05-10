@@ -19,7 +19,7 @@
 		"prettier": "^2.8.8"
 	},
 	"dependencies": {
-		"camelcase": "^6.3.0",
+		"camelcase": "^8.0.0",
 		"chai": "^4.4.1",
 		"fast-stats": "0.0.6",
 		"html-entities": "^2.5.2",
