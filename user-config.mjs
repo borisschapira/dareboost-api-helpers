@@ -13,8 +13,10 @@ const filename = {
 // If empty, will export to the console
 const exportTypes = ["CSV", "JSON"];
 
-exports.config = {
+const _default = {
 	exportFolder,
 	exportTypes,
 	filename
 };
+
+export { _default as default };

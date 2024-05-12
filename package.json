@@ -1,34 +1,34 @@
 {
 	"scripts": {
-		"page:monitor": "node lib/helpers/page/monitors.js",
-		"page:statistics": "node lib/helpers/page/statistics.js",
-		"page:monitor:average": "node lib/helpers/page/average-values.js",
-		"page:common-tips": "node lib/helpers/page/common-tips.js",
-		"scenario:status": "node lib/helpers/scenario/status.js",
-		"lint": "npx prettier lib --write; npx eslint lib;",
-		"clean": "rimraf ./output/*",
+		"page:monitor": "node lib/helpers/page/monitors.mjs",
+		"page:statistics": "node lib/helpers/page/statistics.mjs",
+		"page:monitor:average": "node lib/helpers/page/average-values.mjs",
+		"page:common-tips": "node lib/helpers/page/common-tips.mjs",
+		"scenario:status": "node lib/helpers/scenario/status.mjs",
+		"lint": "prettier lib --write; eslint lib;",
 		"test": "mocha --recursive ./tests"
 	},
 	"name": "collect-trackings",
+	"type": "module",
 	"version": "1.0.0",
-	"main": "index.js",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "^8.57.0",
-		"eslint-config-prettier": "^8.10.0",
-		"prettier": "^2.8.8"
+		"eslint": "^9.2.0",
+		"eslint-config-prettier": "^9.1.0",
+		"prettier": "^3.2.5"
 	},
 	"dependencies": {
-		"camelcase": "^6.3.0",
-		"chai": "^4.4.1",
+		"@json2csv/plainjs": "^7.0.6",
+		"axios": "^1.6.8",
+		"camelcase": "^8.0.0",
+		"chai": "^5.1.1",
 		"fast-stats": "0.0.6",
+		"fs": "0.0.1-security",
 		"html-entities": "^2.5.2",
 		"json2csv": "^5.0.7",
 		"mocha": "^10.4.0",
+		"path": "^0.12.7",
 		"percentile": "^1.6.0",
-		"request": "^2.88.2",
-		"request-promise": "^4.2.6",
-		"rimraf": "^3.0.2",
 		"underscore": "^1.13.6"
 	}
 }

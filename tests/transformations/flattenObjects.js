@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const { flattenObject, flattenObjects } = require('../../lib/transformations');
+import { expect } from 'chai';
+import { flattenObject, flattenObjects } from '../../lib/transformations.mjs';
 
 describe('flattenObject', async () => {
 	it('flattens a standard object', async () => {
