@@ -26,7 +26,7 @@
 		"fs": "0.0.1-security",
 		"html-entities": "^2.5.2",
 		"json2csv": "^5.0.7",
-		"mocha": "^10.4.0",
+		"mocha": "^10.5.0",
 		"path": "^0.12.7",
 		"percentile": "^1.6.0",
 		"underscore": "^1.13.6"
