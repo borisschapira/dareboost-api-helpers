@@ -22,7 +22,7 @@
 		"axios": "^1.7.7",
 		"camelcase": "^8.0.0",
 		"chai": "^5.1.1",
-		"fast-stats": "0.0.6",
+		"fast-stats": "0.0.7",
 		"fs": "0.0.1-security",
 		"html-entities": "^2.5.2",
 		"json2csv": "^5.0.7",
