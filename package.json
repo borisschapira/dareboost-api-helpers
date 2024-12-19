@@ -13,20 +13,20 @@
 	"version": "1.0.0",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "^9.10.0",
+		"eslint": "^9.17.0",
 		"eslint-config-prettier": "^9.1.0",
-		"prettier": "^3.3.3"
+		"prettier": "^3.4.2"
 	},
 	"dependencies": {
 		"@json2csv/plainjs": "^7.0.6",
-		"axios": "^1.7.7",
+		"axios": "^1.7.9",
 		"camelcase": "^8.0.0",
-		"chai": "^5.1.1",
+		"chai": "^5.1.2",
 		"fast-stats": "0.0.6",
 		"fs": "0.0.1-security",
 		"html-entities": "^2.5.2",
 		"json2csv": "^5.0.7",
-		"mocha": "^10.7.3",
+		"mocha": "^10.8.2",
 		"path": "^0.12.7",
 		"percentile": "^1.6.0",
 		"underscore": "^1.13.7"
